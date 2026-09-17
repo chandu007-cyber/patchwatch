@@ -2,32 +2,32 @@
   "meta": {
     "last_run_summary": {
       "cves_actionable": 0,
-      "cves_seen": 1863,
-      "cves_unscored": 539,
+      "cves_seen": 1862,
+      "cves_unscored": 518,
       "degraded_tickets": 0,
       "email_status": "nothing new since last email",
       "emailed_releases": 0,
       "exploited": 5,
       "kev_hits": 5,
       "nvd_stats": {
-        "awaiting": 20,
+        "awaiting": 25,
         "not_scheduled": 0,
         "queried": 60,
-        "scored": 53
+        "scored": 60
       },
       "releases_changed": 0,
       "releases_delivered": 0,
       "releases_new": 0,
       "releases_seen": 11,
       "source_errors": [
-        "android: https://source.android.com/docs/security/bulletin/2026/2026-08-01: bulletin loaded (261046 bytes) but contains no CVE identifiers. Google published the July and August 2026 bulletins without vulnerability detail sections. Filing the patch level anyway - the Intune setting does not depend on the CVE list.",
-        "android: https://source.android.com/docs/security/bulletin/2026/2026-07-01: bulletin loaded (265936 bytes) but contains no CVE identifiers. Google published the July and August 2026 bulletins without vulnerability detail sections. Filing the patch level anyway - the Intune setting does not depend on the CVE list."
+        "android: https://source.android.com/docs/security/bulletin/2026/2026-08-01: bulletin loaded (261042 bytes) but contains no CVE identifiers. Google published the July and August 2026 bulletins without vulnerability detail sections. Filing the patch level anyway - the Intune setting does not depend on the CVE list.",
+        "android: https://source.android.com/docs/security/bulletin/2026/2026-07-01: bulletin loaded (265932 bytes) but contains no CVE identifiers. Google published the July and August 2026 bulletins without vulnerability detail sections. Filing the patch level anyway - the Intune setting does not depend on the CVE list."
       ],
       "timeline_added": 0,
       "timeline_path": "",
       "urgent_alerts": 0
     },
-    "last_successful_run": "2026-09-17T16:39:20+00:00",
+    "last_successful_run": "2026-09-17T20:38:37+00:00",
     "note": "Seeded empty. The first run will populate this and commit it back.",
     "schema_version": 1
   },
@@ -68,7 +68,7 @@
     },
     "android-2026-09-01": {
       "advisory_url": "https://source.android.com/docs/security/bulletin/2026/2026-09-01",
-      "content_hash": "3b62b7eb22a6b597",
+      "content_hash": "ddab52840de4d57b",
       "cve_ids": [
         "CVE-2025-48564",
         "CVE-2025-48565",
@@ -239,7 +239,6 @@
         "CVE-2026-55290",
         "CVE-2026-55294",
         "CVE-2026-5729",
-        "CVE-2026-58820",
         "CVE-2026-58822",
         "CVE-2026-58823",
         "CVE-2026-58839",
@@ -254,12 +253,14 @@
       "delivered_at": null,
       "email_sent_at": null,
       "first_seen": "2026-09-17T12:36:51+00:00",
-      "last_seen": "2026-09-17T12:36:51+00:00",
-      "notes": [],
+      "last_seen": "2026-09-17T20:38:37+00:00",
+      "notes": [
+        "2026-09-17T20:38:37+00:00: advisory revised (rev 2); added no new CVEs"
+      ],
       "platform": "android",
       "release_date": "2026-09-01",
       "release_key": "android-2026-09-01",
-      "revision": 1,
+      "revision": 2,
       "ticket_key": null,
       "ticket_url": null,
       "title": "Android Security Bulletin 2026-09-01"
@@ -870,7 +871,7 @@
     },
     "macos-27-0": {
       "advisory_url": "https://support.apple.com/en-us/149035",
-      "content_hash": "d102b18f74e69931",
+      "content_hash": "c4819e69a6501580",
       "cve_ids": [
         "CVE-2022-3437",
         "CVE-2026-20683",
@@ -1086,14 +1087,15 @@
       "delivered_at": null,
       "email_sent_at": null,
       "first_seen": "2026-09-17T12:36:51+00:00",
-      "last_seen": "2026-09-17T16:39:20+00:00",
+      "last_seen": "2026-09-17T20:38:37+00:00",
       "notes": [
-        "2026-09-17T16:39:20+00:00: advisory revised (rev 2); added no new CVEs"
+        "2026-09-17T16:39:20+00:00: advisory revised (rev 2); added no new CVEs",
+        "2026-09-17T20:38:37+00:00: advisory revised (rev 3); added no new CVEs"
       ],
       "platform": "macos",
       "release_date": "2026-09-14",
       "release_key": "macos-27-0",
-      "revision": 2,
+      "revision": 3,
       "ticket_key": null,
       "ticket_url": null,
       "title": "macOS Golden Gate 27.0"
