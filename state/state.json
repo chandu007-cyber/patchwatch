@@ -1,11 +1,11 @@
 {
   "meta": {
     "last_run_summary": {
-      "cves_actionable": 1564,
+      "cves_actionable": 0,
       "cves_seen": 1863,
       "cves_unscored": 582,
-      "degraded_tickets": 10,
-      "email_status": "email not configured (missing SMTP_HOST, EMAIL_FROM, EMAIL_TO)",
+      "degraded_tickets": 0,
+      "email_status": "nothing new since last email",
       "emailed_releases": 0,
       "exploited": 5,
       "kev_hits": 5,
@@ -17,17 +17,17 @@
       },
       "releases_changed": 0,
       "releases_delivered": 0,
-      "releases_new": 10,
+      "releases_new": 0,
       "releases_seen": 11,
       "source_errors": [
-        "android: https://source.android.com/docs/security/bulletin/2026/2026-08-01: bulletin loaded (261042 bytes) but contains no CVE identifiers. Google published the July and August 2026 bulletins without vulnerability detail sections. Filing the patch level anyway - the Intune setting does not depend on the CVE list.",
-        "android: https://source.android.com/docs/security/bulletin/2026/2026-07-01: bulletin loaded (265936 bytes) but contains no CVE identifiers. Google published the July and August 2026 bulletins without vulnerability detail sections. Filing the patch level anyway - the Intune setting does not depend on the CVE list."
+        "android: https://source.android.com/docs/security/bulletin/2026/2026-08-01: bulletin loaded (261046 bytes) but contains no CVE identifiers. Google published the July and August 2026 bulletins without vulnerability detail sections. Filing the patch level anyway - the Intune setting does not depend on the CVE list.",
+        "android: https://source.android.com/docs/security/bulletin/2026/2026-07-01: bulletin loaded (265932 bytes) but contains no CVE identifiers. Google published the July and August 2026 bulletins without vulnerability detail sections. Filing the patch level anyway - the Intune setting does not depend on the CVE list."
       ],
-      "timeline_added": 10,
-      "timeline_path": "reports/PatchTimeline.docx",
+      "timeline_added": 0,
+      "timeline_path": "",
       "urgent_alerts": 0
     },
-    "last_successful_run": "2026-09-17T12:36:51+00:00",
+    "last_successful_run": "2026-09-17T12:58:33+00:00",
     "note": "Seeded empty. The first run will populate this and commit it back.",
     "schema_version": 1
   },
