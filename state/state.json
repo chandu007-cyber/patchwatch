@@ -10,7 +10,7 @@
       "exploited": 5,
       "kev_hits": 5,
       "nvd_stats": {
-        "awaiting": 24,
+        "awaiting": 9,
         "not_scheduled": 0,
         "queried": 60,
         "scored": 60
@@ -27,7 +27,7 @@
       "timeline_path": "",
       "urgent_alerts": 0
     },
-    "last_successful_run": "2026-09-18T12:43:06+00:00",
+    "last_successful_run": "2026-09-18T16:37:41+00:00",
     "note": "Seeded empty. The first run will populate this and commit it back.",
     "schema_version": 1
   },
