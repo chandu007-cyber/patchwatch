@@ -24,10 +24,10 @@
       "timeline_added": 0,
       "timeline_path": "reports/PatchTimeline.docx",
       "update_doc": "",
-      "update_status": "held (last update 123m ago; 476m until the next is due)",
+      "update_status": "held (last update 238m ago; 361m until the next is due)",
       "urgent_alerts": 0
     },
-    "last_successful_run": "2026-09-21T18:42:43+00:00",
+    "last_successful_run": "2026-09-21T20:37:55+00:00",
     "last_update_at": "2026-09-21T16:39:33+00:00",
     "note": "Seeded empty. The first run will populate this and commit it back.",
     "schema_version": 2
