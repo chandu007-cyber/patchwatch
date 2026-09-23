@@ -27,7 +27,7 @@
       "update_status": "no new releases since last update",
       "urgent_alerts": 0
     },
-    "last_successful_run": "2026-09-23T16:41:21+00:00",
+    "last_successful_run": "2026-09-23T18:42:09+00:00",
     "last_update_at": "2026-09-21T16:39:33+00:00",
     "note": "Seeded empty. The first run will populate this and commit it back.",
     "schema_version": 2
