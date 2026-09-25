@@ -3,7 +3,7 @@
     "last_run_summary": {
       "cves_actionable": 0,
       "cves_seen": 1862,
-      "cves_unscored": 3,
+      "cves_unscored": 4,
       "degraded_tickets": 0,
       "exploited": 5,
       "kev_hits": 5,
@@ -11,7 +11,7 @@
         "awaiting": 0,
         "not_scheduled": 0,
         "queried": 8,
-        "scored": 4
+        "scored": 3
       },
       "releases_changed": 0,
       "releases_delivered": 0,
@@ -19,7 +19,7 @@
       "releases_seen": 11,
       "source_errors": [
         "android: https://source.android.com/docs/security/bulletin/2026/2026-08-01: bulletin loaded (262259 bytes) but contains no CVE identifiers. Google published the July and August 2026 bulletins without vulnerability detail sections. Filing the patch level anyway - the Intune setting does not depend on the CVE list.",
-        "android: https://source.android.com/docs/security/bulletin/2026/2026-07-01: bulletin loaded (267149 bytes) but contains no CVE identifiers. Google published the July and August 2026 bulletins without vulnerability detail sections. Filing the patch level anyway - the Intune setting does not depend on the CVE list."
+        "android: https://source.android.com/docs/security/bulletin/2026/2026-07-01: bulletin loaded (267145 bytes) but contains no CVE identifiers. Google published the July and August 2026 bulletins without vulnerability detail sections. Filing the patch level anyway - the Intune setting does not depend on the CVE list."
       ],
       "timeline_added": 0,
       "timeline_path": "reports/PatchTimeline.docx",
@@ -27,7 +27,7 @@
       "update_status": "no new releases since last update",
       "urgent_alerts": 0
     },
-    "last_successful_run": "2026-09-25T04:40:14+00:00",
+    "last_successful_run": "2026-09-25T06:46:34+00:00",
     "last_update_at": "2026-09-21T16:39:33+00:00",
     "note": "Seeded empty. The first run will populate this and commit it back.",
     "schema_version": 2
@@ -701,7 +701,7 @@
     },
     "macos-26-7": {
       "advisory_url": "https://support.apple.com/en-us/149042",
-      "content_hash": "8248c22507cd30a3",
+      "content_hash": "6872b987d47c9370",
       "cve_ids": [
         "CVE-2022-3437",
         "CVE-2026-20683",
@@ -859,22 +859,23 @@
       ],
       "delivered_at": null,
       "first_seen": "2026-09-21T16:39:33+00:00",
-      "last_seen": "2026-09-25T04:40:14+00:00",
+      "last_seen": "2026-09-25T06:46:34+00:00",
       "notes": [
-        "2026-09-25T04:40:14+00:00: advisory revised (rev 2); added no new CVEs"
+        "2026-09-25T04:40:14+00:00: advisory revised (rev 2); added no new CVEs",
+        "2026-09-25T06:46:34+00:00: advisory revised (rev 3); added no new CVEs"
       ],
       "platform": "macos",
       "release_date": "2026-09-14",
       "release_key": "macos-26-7",
       "reported_at": null,
-      "revision": 2,
+      "revision": 3,
       "ticket_key": null,
       "ticket_url": null,
       "title": "macOS Tahoe 26.7"
     },
     "macos-27-0": {
       "advisory_url": "https://support.apple.com/en-us/149035",
-      "content_hash": "739e0d66d0b1cf5c",
+      "content_hash": "24f6e8a00362b674",
       "cve_ids": [
         "CVE-2022-3437",
         "CVE-2026-20683",
@@ -1089,15 +1090,16 @@
       ],
       "delivered_at": null,
       "first_seen": "2026-09-21T16:39:33+00:00",
-      "last_seen": "2026-09-25T04:40:14+00:00",
+      "last_seen": "2026-09-25T06:46:34+00:00",
       "notes": [
-        "2026-09-25T04:40:14+00:00: advisory revised (rev 2); added no new CVEs"
+        "2026-09-25T04:40:14+00:00: advisory revised (rev 2); added no new CVEs",
+        "2026-09-25T06:46:34+00:00: advisory revised (rev 3); added no new CVEs"
       ],
       "platform": "macos",
       "release_date": "2026-09-14",
       "release_key": "macos-27-0",
       "reported_at": null,
-      "revision": 2,
+      "revision": 3,
       "ticket_key": null,
       "ticket_url": null,
       "title": "macOS Golden Gate 27.0"
