@@ -2031,6 +2031,36 @@
       "title": "September 2026 Security Updates 2026-Sep",
       "version": "2026-Sep",
       "worst": "CRITICAL"
+    },
+    {
+      "advisory_url": "https://support.apple.com/en-us/149226",
+      "cve_count": 1,
+      "cves": [
+        {
+          "basis": "no severity signal from any source - requires manual triage",
+          "component": "",
+          "exploited": false,
+          "id": "CVE-2026-86950",
+          "kev": false,
+          "kev_due": null,
+          "severity": "UNKNOWN"
+        }
+      ],
+      "cves_truncated": 0,
+      "degraded": true,
+      "details_unavailable": false,
+      "exploited_count": 0,
+      "intune": [],
+      "kev_count": 0,
+      "platform": "ios",
+      "recorded_at": "2026-09-28T18:45:14+00:00",
+      "release_date": "2026-09-28",
+      "release_key": "ios-26-7-1",
+      "status": "new",
+      "summary": "iOS and iPadOS 26.7.1 was published on 2026-09-28 and addresses 1 CVEs (1 UNKNOWN). Highest severity: UNKNOWN.\n\nAUTOMATED ANALYSIS UNAVAILABLE - ANTHROPIC_API_KEY is not set. Intune configuration requires manual review against https://support.apple.com/en-us/149226.",
+      "title": "iOS and iPadOS 26.7.1",
+      "version": "26.7.1",
+      "worst": "UNKNOWN"
     }
   ]
 }
