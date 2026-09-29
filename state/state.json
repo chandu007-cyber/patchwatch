@@ -5,8 +5,8 @@
       "cves_seen": 1628,
       "cves_unscored": 0,
       "degraded_tickets": 0,
-      "exploited": 4,
-      "kev_hits": 4,
+      "exploited": 7,
+      "kev_hits": 7,
       "nvd_stats": {
         "awaiting": 0,
         "not_scheduled": 0,
@@ -18,8 +18,8 @@
       "releases_new": 0,
       "releases_seen": 15,
       "source_errors": [
-        "android: https://source.android.com/docs/security/bulletin/2026/2026-08-01: bulletin loaded (262259 bytes) but contains no CVE identifiers. Google published the July and August 2026 bulletins without vulnerability detail sections. Filing the patch level anyway - the Intune setting does not depend on the CVE list.",
-        "android: https://source.android.com/docs/security/bulletin/2026/2026-07-01: bulletin loaded (267145 bytes) but contains no CVE identifiers. Google published the July and August 2026 bulletins without vulnerability detail sections. Filing the patch level anyway - the Intune setting does not depend on the CVE list."
+        "android: https://source.android.com/docs/security/bulletin/2026/2026-08-01: bulletin loaded (262255 bytes) but contains no CVE identifiers. Google published the July and August 2026 bulletins without vulnerability detail sections. Filing the patch level anyway - the Intune setting does not depend on the CVE list.",
+        "android: https://source.android.com/docs/security/bulletin/2026/2026-07-01: bulletin loaded (267149 bytes) but contains no CVE identifiers. Google published the July and August 2026 bulletins without vulnerability detail sections. Filing the patch level anyway - the Intune setting does not depend on the CVE list."
       ],
       "timeline_added": 0,
       "timeline_path": "reports/PatchTimeline.docx",
@@ -27,7 +27,7 @@
       "update_status": "no new releases since last update",
       "urgent_alerts": 0
     },
-    "last_successful_run": "2026-09-29T14:43:15+00:00",
+    "last_successful_run": "2026-09-29T16:43:34+00:00",
     "last_update_at": "2026-09-28T18:45:14+00:00",
     "note": "Seeded empty. The first run will populate this and commit it back.",
     "schema_version": 2
@@ -383,21 +383,22 @@
     },
     "ios-26-7-1": {
       "advisory_url": "https://support.apple.com/en-us/149226",
-      "content_hash": "4ef6cc3cf196ea5c",
+      "content_hash": "a605b6698f1be98e",
       "cve_ids": [
         "CVE-2026-86950"
       ],
       "delivered_at": null,
       "first_seen": "2026-09-28T18:45:14+00:00",
-      "last_seen": "2026-09-28T20:40:43+00:00",
+      "last_seen": "2026-09-29T16:43:34+00:00",
       "notes": [
-        "2026-09-28T20:40:43+00:00: advisory revised (rev 2); added no new CVEs"
+        "2026-09-28T20:40:43+00:00: advisory revised (rev 2); added no new CVEs",
+        "2026-09-29T16:43:34+00:00: advisory revised (rev 3); added no new CVEs"
       ],
       "platform": "ios",
       "release_date": "2026-09-28",
       "release_key": "ios-26-7-1",
       "reported_at": null,
-      "revision": 2,
+      "revision": 3,
       "ticket_key": null,
       "ticket_url": null,
       "title": "iOS and iPadOS 26.7.1"
@@ -742,19 +743,21 @@
     },
     "macos-15-8-1": {
       "advisory_url": "https://support.apple.com/en-us/149229",
-      "content_hash": "4ef6cc3cf196ea5c",
+      "content_hash": "a605b6698f1be98e",
       "cve_ids": [
         "CVE-2026-86950"
       ],
       "delivered_at": null,
       "first_seen": "2026-09-28T20:40:43+00:00",
-      "last_seen": "2026-09-28T20:40:43+00:00",
-      "notes": [],
+      "last_seen": "2026-09-29T16:43:34+00:00",
+      "notes": [
+        "2026-09-29T16:43:34+00:00: advisory revised (rev 2); added no new CVEs"
+      ],
       "platform": "macos",
       "release_date": "2026-09-28",
       "release_key": "macos-15-8-1",
       "reported_at": null,
-      "revision": 1,
+      "revision": 2,
       "ticket_key": null,
       "ticket_url": null,
       "title": "macOS Sequoia 15.8.1"
@@ -938,19 +941,21 @@
     },
     "macos-26-7-1": {
       "advisory_url": "https://support.apple.com/en-us/149228",
-      "content_hash": "4ef6cc3cf196ea5c",
+      "content_hash": "a605b6698f1be98e",
       "cve_ids": [
         "CVE-2026-86950"
       ],
       "delivered_at": null,
       "first_seen": "2026-09-28T20:40:43+00:00",
-      "last_seen": "2026-09-28T20:40:43+00:00",
-      "notes": [],
+      "last_seen": "2026-09-29T16:43:34+00:00",
+      "notes": [
+        "2026-09-29T16:43:34+00:00: advisory revised (rev 2); added no new CVEs"
+      ],
       "platform": "macos",
       "release_date": "2026-09-28",
       "release_key": "macos-26-7-1",
       "reported_at": null,
-      "revision": 1,
+      "revision": 2,
       "ticket_key": null,
       "ticket_url": null,
       "title": "macOS Tahoe 26.7.1"
