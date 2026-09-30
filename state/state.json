@@ -10,8 +10,8 @@
       "nvd_stats": {
         "awaiting": 0,
         "not_scheduled": 0,
-        "queried": 10,
-        "scored": 10
+        "queried": 5,
+        "scored": 5
       },
       "releases_changed": 0,
       "releases_delivered": 0,
@@ -29,7 +29,7 @@
       "update_status": "no new releases since last update",
       "urgent_alerts": 0
     },
-    "last_successful_run": "2026-09-30T19:07:44+00:00",
+    "last_successful_run": "2026-09-30T20:41:08+00:00",
     "last_update_at": "2026-09-28T18:45:14+00:00",
     "note": "Seeded empty. The first run will populate this and commit it back.",
     "schema_version": 2
